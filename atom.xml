@@ -4,7 +4,7 @@
   <title><![CDATA[Keep It Strictly Stupid]]></title>
   <link href="http://MeddahJ.github.com/atom.xml" rel="self"/>
   <link href="http://MeddahJ.github.com/"/>
-  <updated>2013-01-09T13:48:30+01:00</updated>
+  <updated>2013-01-09T13:54:12+01:00</updated>
   <id>http://MeddahJ.github.com/</id>
   <author>
     <name><![CDATA[MEDDAH Julien]]></name>
@@ -18,19 +18,19 @@
     <link href="http://MeddahJ.github.com/blog/Socrates2012"/>
     <updated>2012-08-13T00:00:00+02:00</updated>
     <id>http://MeddahJ.github.com/blog/Socrates2012</id>
-    <content type="html"><![CDATA[<p><a href='http://MeddahJ.github.com/images/Socrates2012/Conference_Hotel.jpg' rel='lightbox' title='SoCraTes 2012 was hosted in SeminarZentrum, Rückersbach near Frankfurt'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Conference_Hotel_Thumb.jpg' /></a></p>
+    <content type="html"><![CDATA[<p><a href='http://MeddahJ.github.com/images/SoCraTes2012/Conference_Hotel.jpg' rel='lightbox' title='SoCraTes 2012 was hosted in SeminarZentrum, Rückersbach near Frankfurt'><img alt='' src='http://MeddahJ.github.com/images/SoCraTes2012/Conference_Hotel_Thumb.jpg' /></a></p>
 
 <p>The second annual <a href='http://www.socrates-conference.de/'>Software Craftsmanship and Testing</a> conference, hosted by developers <a href='https://twitter.com/nicolerauch'>Nicole Rauch</a> and <a href='https://twitter.com/leiderleider/'>Andreas Leidig</a>, was held from 2nd to 4th August in Rückersback, Germany</p>
 
 <h2 id='world_caf'>World Café</h2>
 
-<p><a href='http://MeddahJ.github.com/images/Socrates2012/World_cafe.jpg' rel='lightbox' title='Writing on the table napkin what we came here to learn'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/World_cafe_Thumb.jpg' /></a> <br /></p>
+<p><a href='http://MeddahJ.github.com/images/SoCraTes2012/World_cafe.jpg' rel='lightbox' title='Writing on the table napkin what we came here to learn'><img alt='' src='http://MeddahJ.github.com/images/SoCraTes2012/World_cafe_Thumb.jpg' /></a> <br /></p>
 
 <p>We kicked things off the first evening by drawing inspiration from the <a href='http://www.theworldcafe.com/method.html'>World Café method</a>: we sat around tables, broke the ice, and we wrote down on the table napkin what we came here to learn. Only questions were allowed, discussions or answers would have wait for the day after. We would frequently change tables to get acquainted to different subjects and people.</p>
 
 <h2 id='open_spaces'>Open Spaces</h2>
 
-<p><a href='http://MeddahJ.github.com/images/Socrates2012/Marketplace.jpg' rel='lightbox' title='Scheduling the first day'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Marketplace_Thumb.jpg' /></a> <br /></p>
+<p><a href='http://MeddahJ.github.com/images/SoCraTes2012/Marketplace.jpg' rel='lightbox' title='Scheduling the first day'><img alt='' src='http://MeddahJ.github.com/images/SoCraTes2012/Marketplace_Thumb.jpg' /></a> <br /></p>
 
 <p>Days 2 and 3 were for <a href='http://en.wikipedia.org/wiki/Open-space_technology'>Open Space sessions</a>. The first sessions of each day, facilitated by <a href='https://twitter.com/p_pugliese'>Pierluigi Pugliese</a>, were for announcements, feedbacks, and most of all for scheduling the rest of the day, with each presenter trying to sway the attendance over his slot. And like in every good conference, there was lots of heartbreaking choices to make…</p>
 
@@ -104,7 +104,7 @@
 <li>Being lazy enough to concentrate on real problems</li>
 </ul>
 <br />
-<p><a href='http://MeddahJ.github.com/images/Socrates2012/Architecture.jpg' rel='lightbox[sessions]' title='Death of traditional architecture'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Architecture_Thumb.jpg' /></a><a href='http://MeddahJ.github.com/images/Socrates2012/Reality_check.jpg' rel='lightbox[sessions]' title='Reality Check'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Reality_check_Thumb.jpg' /></a><a href='http://MeddahJ.github.com/images/Socrates2012/Asking_for_help.jpg' rel='lightbox[sessions]' title='How to work with people who don&apos;t want to learn?'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Asking_for_help_Thumb.jpg' /></a></p>
+<p><a href='http://MeddahJ.github.com/images/SoCraTes2012/Architecture.jpg' rel='lightbox[sessions]' title='Death of traditional architecture'><img alt='' src='http://MeddahJ.github.com/images/SoCraTes2012/Architecture_Thumb.jpg' /></a><a href='http://MeddahJ.github.com/images/SoCraTes2012/Reality_check.jpg' rel='lightbox[sessions]' title='Reality Check'><img alt='' src='http://MeddahJ.github.com/images/SoCraTes2012/Reality_check_Thumb.jpg' /></a><a href='http://MeddahJ.github.com/images/SoCraTes2012/Asking_for_help.jpg' rel='lightbox[sessions]' title='How to work with people who don&apos;t want to learn?'><img alt='' src='http://MeddahJ.github.com/images/SoCraTes2012/Asking_for_help_Thumb.jpg' /></a></p>
 <br />
 <h3 id='organizing_craftsmen_swaps_in_germany_and_europe_with_bernhardt_findeiss'>Organizing Craftsmen Swaps in Germany and Europe (with <a href='https://twitter.com/bfindeiss'>Bernhardt Findeiss</a>)</h3>
 
@@ -124,7 +124,7 @@
 <li>Obtiva and 8th Light <a href='http://www.vcstar.com/news/2009/Jul/13/employee-swap-gives-two-firms-new-perspectives/'>tried</a></li>
 </ul>
 
-<p><a href='http://MeddahJ.github.com/images/Socrates2012/Craftsman_swap.jpg' rel='lightbox' title='Organizing Craftsmen Swaps in Germany and Europe'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Craftsman_swap_Thumb.jpg' /></a> <br /></p>
+<p><a href='http://MeddahJ.github.com/images/SoCraTes2012/Craftsman_swap.jpg' rel='lightbox' title='Organizing Craftsmen Swaps in Germany and Europe'><img alt='' src='http://MeddahJ.github.com/images/SoCraTes2012/Craftsman_swap_Thumb.jpg' /></a> <br /></p>
 
 <h3 id='bdd_workshop_with_aaron_walker_and_aki_salmi'><a href='http://en.wikipedia.org/wiki/Behavior_Driven_Development'>BDD</a> workshop (with <a href='https://twitter.com/aaronwalker'>Aaron Walker</a> and <a href='https://twitter.com/aksalmi'>Aki Salmi</a>)</h3>
 
@@ -140,7 +140,7 @@
 
 <p>I&#8217;ve had other interesting sessions about monads or software metrics as well, but I won&#8217;t go into too much details about those.<br />And this concludes the SoCraTes part of the week-end:</p>
 
-<p><a href='http://MeddahJ.github.com/images/Socrates2012/Feedback.jpg' rel='lightbox' title='Final feedback: Green is for good points, Orange for bad points, Purple for suggestions'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Feedback_Thumb.jpg' /></a> <br /></p>
+<p><a href='http://MeddahJ.github.com/images/SoCraTes2012/Feedback.jpg' rel='lightbox' title='Final feedback: Green is for good points, Orange for bad points, Purple for suggestions'><img alt='' src='http://MeddahJ.github.com/images/SoCraTes2012/Feedback_Thumb.jpg' /></a> <br /></p>
 
 <h2 id='code_retreat'>Code Retreat</h2>
 
@@ -148,7 +148,7 @@
 
 <p>I was afraid I&#8217;d get bored, the format didn&#8217;t look particularly original, but thanks to some of the <a href='http://coderetreat.org/facilitating/activity-catalog'>challenges</a> selected for this audience, things got intense pretty fast. We had to swap code with one pair, our four. We had to keep silent and let our code speak for itself (I whispered), to refrain from using if/else/switch or to follow <a href='http://www.bennadel.com/resources/uploads/2012/ObjectCalisthenics.pdf'>Object Calisthenics</a> requirements.<br />Conclusion: Most of the times I couldn&#8217;t get myself to delete someone else&#8217;s code, and using Clojure often felt like cheating.</p>
 
-<p><a href='http://MeddahJ.github.com/images/Socrates2012/Code_retreat.jpg' rel='lightbox' title='Code retreats usually need 1 facilitator per 10 attendees, we only had one'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Code_retreat_Thumb.jpg' /></a> <br /> <br /></p>
+<p><a href='http://MeddahJ.github.com/images/SoCraTes2012/Code_retreat.jpg' rel='lightbox' title='Code retreats usually need 1 facilitator per 10 attendees, we only had one'><img alt='' src='http://MeddahJ.github.com/images/SoCraTes2012/Code_retreat_Thumb.jpg' /></a> <br /> <br /></p>
 
 <h2 id='wrap_up'>Wrap Up</h2>
 
@@ -156,7 +156,7 @@
 
 <p>In all, I spent an inspiring week-end with tons of like-minded developers in a great location, thanks to everyone involved!</p>
 
-<p><a href='http://MeddahJ.github.com/images/Socrates2012/Timeline.jpg' rel='lightbox' title='Software Craftsmanship communities activity in Germany, and Paris, since last year'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Timeline_Thumb.jpg' /></a></p>]]></content>
+<p><a href='http://MeddahJ.github.com/images/SoCraTes2012/Timeline.jpg' rel='lightbox' title='Software Craftsmanship communities activity in Germany, and Paris, since last year'><img alt='' src='http://MeddahJ.github.com/images/SoCraTes2012/Timeline_Thumb.jpg' /></a></p>]]></content>
   </entry>
   
 </feed>
