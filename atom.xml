@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Keep It Strictly Stupid]]></title>
+  <link href="http://MeddahJ.github.com/atom.xml" rel="self"/>
+  <link href="http://MeddahJ.github.com/"/>
+  <updated>2013-01-09T13:48:30+01:00</updated>
+  <id>http://MeddahJ.github.com/</id>
+  <author>
+    <name><![CDATA[MEDDAH Julien]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Socrates 2012]]></title>
+    <link href="http://MeddahJ.github.com/blog/Socrates2012"/>
+    <updated>2012-08-13T00:00:00+02:00</updated>
+    <id>http://MeddahJ.github.com/blog/Socrates2012</id>
+    <content type="html"><![CDATA[<p><a href='http://MeddahJ.github.com/images/Socrates2012/Conference_Hotel.jpg' rel='lightbox' title='SoCraTes 2012 was hosted in SeminarZentrum, Rückersbach near Frankfurt'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Conference_Hotel_Thumb.jpg' /></a></p>
+
+<p>The second annual <a href='http://www.socrates-conference.de/'>Software Craftsmanship and Testing</a> conference, hosted by developers <a href='https://twitter.com/nicolerauch'>Nicole Rauch</a> and <a href='https://twitter.com/leiderleider/'>Andreas Leidig</a>, was held from 2nd to 4th August in Rückersback, Germany</p>
+
+<h2 id='world_caf'>World Café</h2>
+
+<p><a href='http://MeddahJ.github.com/images/Socrates2012/World_cafe.jpg' rel='lightbox' title='Writing on the table napkin what we came here to learn'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/World_cafe_Thumb.jpg' /></a> <br /></p>
+
+<p>We kicked things off the first evening by drawing inspiration from the <a href='http://www.theworldcafe.com/method.html'>World Café method</a>: we sat around tables, broke the ice, and we wrote down on the table napkin what we came here to learn. Only questions were allowed, discussions or answers would have wait for the day after. We would frequently change tables to get acquainted to different subjects and people.</p>
+
+<h2 id='open_spaces'>Open Spaces</h2>
+
+<p><a href='http://MeddahJ.github.com/images/Socrates2012/Marketplace.jpg' rel='lightbox' title='Scheduling the first day'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Marketplace_Thumb.jpg' /></a> <br /></p>
+
+<p>Days 2 and 3 were for <a href='http://en.wikipedia.org/wiki/Open-space_technology'>Open Space sessions</a>. The first sessions of each day, facilitated by <a href='https://twitter.com/p_pugliese'>Pierluigi Pugliese</a>, were for announcements, feedbacks, and most of all for scheduling the rest of the day, with each presenter trying to sway the attendance over his slot. And like in every good conference, there was lots of heartbreaking choices to make…</p>
+
+<p>I summed up noticeable bits of some of those sessions below to give you a feeling of what it was like to be there: <br /> <br /></p>
+
+<h3 id='death_of_traditional_architecture_with_sandro_mancuso'>Death of traditional architecture (with <a href='https://twitter.com/sandromancuso'>Sandro Mancuso</a>):</h3>
+
+<ul>
+<li>Holding architects more accountable. Make them justify their decisions, with numbers</li>
+
+<li>Don&#8217;t let architecture and frameworks bleed into the domain</li>
+
+<li>Opinionated frameworks don&#8217;t trust you to make the right decisions</li>
+
+<li>If you limit the diversity of your tools to better cater to your operations, you may have a problem with your environment</li>
+
+<li>Plans of church scream of a church, project architectures scream of tools and frameworks used inside</li>
+
+<li>Methods are often renamed, classes are sometimes, packages almost never</li>
+
+<li>Package should named more by domain concepts, less by architectural concepts</li>
+
+<li><em>If software was a book, package would be chapter names</em></li>
+
+<li><a href='http://en.wikipedia.org/wiki/Open/closed_principle'>Open-Closed Principle</a> also applies for architecture</li>
+</ul>
+<br /><br />
+<h3 id='reality_check_applying_good_practices_at_work_with_stefan_lh'>Reality check, applying good practices at work (with <a href='https://twitter.com/housemaister'>Stefan LH?</a>)</h3>
+
+<ul>
+<li>TDD: Counter-intuitive, where to start is harder to decide when there&#8217;s too much coupling</li>
+
+<li>Features branches: One approach was to never compromise on refactors and to let colleagues get angry anyway</li>
+
+<li>Loose pairing: where two experienced programmers start working on a public interface, split tasks, part ways and integrate their work in the end (lots of mocking, pull requests made to change the public interface)</li>
+
+<li>Throwaway code is never really thrown away</li>
+
+<li>Don&#8217;t test your framework or your language</li>
+
+<li>Leave the camp cleaner than when you found it, but don&#8217;t go cleaning the entire forest</li>
+</ul>
+<br />
+<h3 id='how_to_work_with_people_who_dont_want_to_learn_with_marc_philipp'>How to work with people who don&#8217;t want to learn? (with <a href='https://twitter.com/marcphilipp'>Marc Philipp</a>)</h3>
+
+<ul>
+<li><em>An example of session where the host was asking the audience for help</em></li>
+
+<li>Using code reviews (or even more so pair programming) to teach him new tricks, to raise the bar inside the team</li>
+
+<li>Let him review your code, provoke him with glaring errors and see his reactions</li>
+
+<li>Someone once asked a colleague why he didn&#8217;t pull as much as the rest: &#8220;It&#8217;s because being good at my job has nothing to do with pay raises and promotions&#8221;</li>
+</ul>
+<br />
+<h3 id='what_does_professional_actually_mean_with_andreas_leidig'>What does &#8220;professional&#8221; actually mean (with <a href='https://twitter.com/leiderleider/'>Andreas Leidig</a>)</h3>
+
+<ul>
+<li>First, do no harm: Developing a malware, working for military (or finance) and the difference between professionalism and ethics</li>
+
+<li>Attitude: Diplomacy is a politically correct word for hypocrisy</li>
+
+<li>Continuous learning, <em>practice practice practice</em></li>
+
+<li>Learning to say no, stand up to management and clients when asked to lower your standards (<a href='http://accelerance.com/the-7-ways-an-indian-programmer-says-no/'>indians can&#8217;t say no</a>)</li>
+
+<li>Being idealistic, and accepting that being frustrated is part of the deal</li>
+
+<li>Unprofessionalism: Can be subjective, also used to qualify people not fitting into specific molds (<a href='http://www.paulbowler.co.uk/kindle/tag/popcorn?book=18'>Popcorn is unprofessional</a>)</li>
+
+<li>Being lazy enough to concentrate on real problems</li>
+</ul>
+<br />
+<p><a href='http://MeddahJ.github.com/images/Socrates2012/Architecture.jpg' rel='lightbox[sessions]' title='Death of traditional architecture'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Architecture_Thumb.jpg' /></a><a href='http://MeddahJ.github.com/images/Socrates2012/Reality_check.jpg' rel='lightbox[sessions]' title='Reality Check'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Reality_check_Thumb.jpg' /></a><a href='http://MeddahJ.github.com/images/Socrates2012/Asking_for_help.jpg' rel='lightbox[sessions]' title='How to work with people who don&apos;t want to learn?'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Asking_for_help_Thumb.jpg' /></a></p>
+<br />
+<h3 id='organizing_craftsmen_swaps_in_germany_and_europe_with_bernhardt_findeiss'>Organizing Craftsmen Swaps in Germany and Europe (with <a href='https://twitter.com/bfindeiss'>Bernhardt Findeiss</a>)</h3>
+
+<p>Two craftsmen employed by competing companies get to exchange employers.</p>
+
+<ul>
+<li>Legal implications (especially between countries)</li>
+
+<li>Non disclosure agreements needed</li>
+
+<li>One week is probably not enough to produce real code, more than a month is too much</li>
+
+<li>Who pays for what? (lodging, billable hours)</li>
+
+<li>Management and clients need to be convinced on both sides</li>
+
+<li>Obtiva and 8th Light <a href='http://www.vcstar.com/news/2009/Jul/13/employee-swap-gives-two-firms-new-perspectives/'>tried</a></li>
+</ul>
+
+<p><a href='http://MeddahJ.github.com/images/Socrates2012/Craftsman_swap.jpg' rel='lightbox' title='Organizing Craftsmen Swaps in Germany and Europe'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Craftsman_swap_Thumb.jpg' /></a> <br /></p>
+
+<h3 id='bdd_workshop_with_aaron_walker_and_aki_salmi'><a href='http://en.wikipedia.org/wiki/Behavior_Driven_Development'>BDD</a> workshop (with <a href='https://twitter.com/aaronwalker'>Aaron Walker</a> and <a href='https://twitter.com/aksalmi'>Aki Salmi</a>)</h3>
+
+<p>Use case: A hot dog vendor has to keep his stock afloat. He exposed his problem, a long Q&amp;A session ensued to work out the specifics, and four teams of developers confronted their scenarios:</p>
+
+<ul>
+<li>Make scenarios easy to read, don&#8217;t leak implementation details inside</li>
+
+<li>Don&#8217;t fit every case into a few scenario, break into conceptual elements</li>
+</ul>
+<br />
+<h3 id='and_more'>And more…</h3>
+
+<p>I&#8217;ve had other interesting sessions about monads or software metrics as well, but I won&#8217;t go into too much details about those.<br />And this concludes the SoCraTes part of the week-end:</p>
+
+<p><a href='http://MeddahJ.github.com/images/Socrates2012/Feedback.jpg' rel='lightbox' title='Final feedback: Green is for good points, Orange for bad points, Purple for suggestions'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Feedback_Thumb.jpg' /></a> <br /></p>
+
+<h2 id='code_retreat'>Code Retreat</h2>
+
+<p>A <a href='http://coderetreat.org/'>Code Retreat</a> was facilitated on 5th August by <a href='https://twitter.com/martinklose'>Martin Klöse</a></p>
+
+<p>I was afraid I&#8217;d get bored, the format didn&#8217;t look particularly original, but thanks to some of the <a href='http://coderetreat.org/facilitating/activity-catalog'>challenges</a> selected for this audience, things got intense pretty fast. We had to swap code with one pair, our four. We had to keep silent and let our code speak for itself (I whispered), to refrain from using if/else/switch or to follow <a href='http://www.bennadel.com/resources/uploads/2012/ObjectCalisthenics.pdf'>Object Calisthenics</a> requirements.<br />Conclusion: Most of the times I couldn&#8217;t get myself to delete someone else&#8217;s code, and using Clojure often felt like cheating.</p>
+
+<p><a href='http://MeddahJ.github.com/images/Socrates2012/Code_retreat.jpg' rel='lightbox' title='Code retreats usually need 1 facilitator per 10 attendees, we only had one'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Code_retreat_Thumb.jpg' /></a> <br /> <br /></p>
+
+<h2 id='wrap_up'>Wrap Up</h2>
+
+<p>There were also all sorts of nightly activities, like a <a href='http://en.wikipedia.org/wiki/Iterative_design#Marshmallow_Challenge'>marshmallow challenge</a> where not one structure fell, or repetitions for the <a href='http://www.youtube.com/watch?v=-YAri1CCNNk'>SoCraTes song</a> played during the code retreat.</p>
+
+<p>In all, I spent an inspiring week-end with tons of like-minded developers in a great location, thanks to everyone involved!</p>
+
+<p><a href='http://MeddahJ.github.com/images/Socrates2012/Timeline.jpg' rel='lightbox' title='Software Craftsmanship communities activity in Germany, and Paris, since last year'><img alt='' src='http://MeddahJ.github.com/images/Socrates2012/Timeline_Thumb.jpg' /></a></p>]]></content>
+  </entry>
+  
+</feed>
