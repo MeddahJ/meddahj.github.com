@@ -1,0 +1,40 @@
+{% if site.flickr_userid %}
+<section class="flickr">
+<h1>Flickr</h1>
+<style type="text/css">
+	#flickrList li{ text-align: center; }
+</style>
+<ul id="flickrList"></ul>
+
+<script lang="Javascript">
+var flickrNickname = "{{ site.flickr_nickname }}";
+
+function jsonFlickrApi(rsp) {
+
+	if (rsp.stat != "ok"){
+  		return;
+ 	}
+
+ 	var list = "";
+
+ 	var photos = _.shuffle(rsp.photos.photo);
+ 	var photosCount = parseInt("{{ site.flickr_count }}");
+
+ 	for (var i=0; i < photosCount; i++) {
+ 	
+  		var photo    = photos[i];
+  		var thumbUrl   = 'http://farm'+ photo.farm +'.static.flickr.com/'+ photo.server +'/'+ photo.id +'_'+ photo.secret +'.jpg';
+  		var photoUrl = 'http://www.flickr.com/photos/'+ flickrNickname +'/'+ photo.id;
+
+  		list += '<li id="flickrItem_'+i+'"><a href="'+ photoUrl +'" title="'+ photo.title +'"><img alt="'+ photo.title +'" src="'+ thumbUrl +'" /></a></li>';
+ 	}
+ 	
+ 	list += '<li class="flickrLink"><a href="http://www.flickr.com/photos/'+ flickrNickname + '">Flickr page</a></li>';
+ 	
+ 	document.getElementById('flickrList').innerHTML = list;
+}
+</script>
+<script lang="Javascript" src="http://api.flickr.com/services/rest/?format=json&method=flickr.photos.search&user_id={{ site.flickr_userid }}&api_key={{ site.flickr_apikey }}"></script>
+
+</section>
+{% endif %}
