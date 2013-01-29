@@ -7,7 +7,7 @@ function prettyDate(time) {
     return "<span>&infin;</span>"; // because IE date parsing isn't fun.
   }
   var say = {
-    just_now:    " now",
+    just_now:    " instants",
     minute_ago:  "1m",
     minutes_ago: "m",
     hour_ago:    "1h",
@@ -27,15 +27,14 @@ function prettyDate(time) {
 
   if (isNaN(day_diff) || day_diff < 0) { return "<span>&infin;</span>"; }
 
-  return day_diff === 0 && (
-    diff < 60 && say.just_now ||
-    diff < 120 && say.minute_ago ||
-    diff < 3600 && Math.floor(diff / 60) + say.minutes_ago ||
-    diff < 7200 && say.hour_ago ||
-    diff < 86400 && Math.floor(diff / 3600) + say.hours_ago) ||
-    day_diff === 1 && say.yesterday ||
-    day_diff < 7 && day_diff + say.days_ago ||
-    day_diff === 7 && say.last_week ||
+  return day_diff === 0 && (diff < 60 && say.just_now || 
+                            diff < 120 && say.minute_ago || 
+                            diff < 3600 && Math.floor(diff / 60) + say.minutes_ago || 
+                            diff < 7200 && say.hour_ago || 
+                            diff < 86400 && Math.floor(diff / 3600) + say.hours_ago) ||
+    day_diff === 1 && say.yesterday || 
+    day_diff < 7 && day_diff + say.days_ago || 
+    day_diff === 7 && say.last_week || 
     day_diff > 7 && Math.ceil(day_diff / 7) + say.weeks_ago;
 }
 
@@ -58,11 +57,11 @@ function linkifyTweet(text, url) {
 }
 
 function showTwitterFeed(tweets, twitter_user) {
-  var timeline = document.getElementById('tweets'),
+  var timeline = document.getElementById('gazouillis'),
       content = '';
 
   for (var t in tweets) {
-    content += '<li>'+'<p>'+'<a href="https://twitter.com/'+twitter_user+'/status/'+tweets[t].id_str+'">'+prettyDate(tweets[t].created_at)+'</a>'+linkifyTweet(tweets[t].text.replace(/\n/g, '<br>'), tweets[t].entities.urls)+'</p>'+'</li>';
+    content += '<li>'+'<p>'+'<a href="https://twitter.com/'+twitter_user+'/status/'+tweets[t].id_str+'" class="tweet-date">'+prettyDate(tweets[t].created_at)+' ago</a>'+linkifyTweet(tweets[t].text.replace(/\n/g, '<br>'), tweets[t].entities.urls)+'</p>'+'</li>';
   }
   timeline.innerHTML = content;
 }
@@ -70,10 +69,5 @@ function showTwitterFeed(tweets, twitter_user) {
 function getTwitterFeed(user, count, replies) {
   count = parseInt(count, 10);
   var $ = jQuery;
-  $.ajax({
-      url: "https://api.twitter.com/1/statuses/user_timeline/" + user + ".json?trim_user=true&count=" + (count + 20) + "&include_entities=1&exclude_replies=" + (replies ? "0" : "1") + "&callback=?"
-    , type: 'jsonp'
-    , error: function (err) { $('#tweets li.loading').addClass('error').text("Twitter's busted"); }
-    , success: function(data) {showTwitterFeed(data.slice(0, count), user); }
-  })
+  $.getJSON("https://api.twitter.com/1/statuses/user_timeline/" + user + ".json?trim_user=true&count=" + (count + 20) + "&include_entities=1&exclude_replies=" + (replies ? "0" : "1") + "&callback=?", function(data) {showTwitterFeed(data.slice(0, count), user);})
 }

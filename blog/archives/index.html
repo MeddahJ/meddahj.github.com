@@ -10,7 +10,7 @@
 
   
   <meta name="description" content="Blog Archive 2012 Socrates 2012
-Aug 13 2012 Devoxx France Recent Posts Socrates 2012 GitHub Repos Status updating... @MeddahJ on GitHub $.domReady( &hellip;">
+Aug 13 2012 Recent Posts Socrates 2012 GitHub Repos Status updating... @MeddahJ on GitHub $.domReady(function(){ if &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -116,11 +116,6 @@ Aug 13 2012 Devoxx France Recent Posts Socrates 2012 GitHub Repos Status updatin
 <aside class="sidebar">
   
     <section>
-	<h1>Devoxx France</h1>
-	<p>
-		<a href="http://www.devoxx.fr/display/FR13"><img src="/images/devoxx/devoxx_fr.png"/></a>		
-	</p>
-</section><section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -162,8 +157,15 @@ Aug 13 2012 Devoxx France Recent Posts Socrates 2012 GitHub Repos Status updatin
 
 
 <section>
-  <h1>Twitter</h1>
-  <ul id="tweets"></ul>
+  <style type="text/css">
+  .tweet-date{
+    float: right;
+  }
+  </style>
+  <h1>Latest Tweets</h1>
+  <ul id="gazouillis">
+    <li class="loading">Status updating...</li>
+  </ul>
   <script type="text/javascript">
     $.domReady(function(){
       getTwitterFeed("MeddahJ", 5, false);
@@ -214,7 +216,12 @@ function jsonFlickrApi(rsp) {
 <script lang="Javascript" src="http://api.flickr.com/services/rest/?format=json&method=flickr.photos.search&user_id=69232148@N02&api_key=afdd1d1d5549858ac9dd63377445aa93"></script>
 
 </section>
-
+<section>
+	<h1>Devoxx France</h1>
+	<p>
+		<a href="http://www.devoxx.fr/display/FR13"><img src="/images/devoxx/devoxx_fr.png"/></a>		
+	</p>
+</section>
   
 </aside>
 
